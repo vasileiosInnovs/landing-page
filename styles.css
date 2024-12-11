@@ -27,5 +27,9 @@ ul {
     display: inline-flex;
     list-style-type: none;
     gap: 8px;
+}
+
+li a {
+    color: #F9FAF8;
     text-decoration: none;
 }
