@@ -34,7 +34,7 @@ li a {
 
 #first {
   background-color: #1f2937;
-  padding: 50px 120px;
+  padding: 70px 120px;
   display: flex;
   justify-content: space-between;
 }
@@ -62,10 +62,12 @@ li a {
 
 .left {
   display: block;
+  padding: 0 50px 0 0;
 }
 
 .right {
   display: block;
+  padding: 0 0 0 50px;
 }
 
 #rectangle {
@@ -76,4 +78,25 @@ li a {
   background-color: #e5e7eb;
   justify-content: center;
   align-items: center;
+}
+
+/* info */
+
+/* quote */
+#quote {
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+  padding: 70px 120px;
+  background-color: #e5e7eb;
+  color: #1f2937;
+}
+
+.thor {
+  color: #1f2937;
+  font-style: normal;
+  font-weight: bold;
+  font-size: small;
+  display: flex;
+  justify-content: flex-end;
 }
