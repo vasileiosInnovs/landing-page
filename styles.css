@@ -33,8 +33,9 @@ li a {
 
 #first {
   background-color: #1f2937;
-  padding: 30px 120px;
+  padding: 50px 120px;
   display: flex;
+  justify-content: space-between;
 }
 
 .text {
@@ -48,9 +49,20 @@ li a {
     color: #e5e7eb;
 }
 
-.sign-up {
+#first button {
     background-color: #3882f6;
     color: white;
-    width: 8px;
-    height: 2px;
+    padding: 2px;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
 }
+
+.left {
+    display: block;
+}
+
+/* .right {
+    display: block;
+    width: 200px;
+} */
