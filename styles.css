@@ -103,7 +103,7 @@ li a {
     display: block;
     width: 120px;
     justify-content: space-around;
-    padding: 30px;
+    padding: 40px;
 }
 
 .square {
@@ -112,12 +112,12 @@ li a {
     background-color: white;
     border: 3px solid #3882f6;
     border-radius: 8px;
-    
 }
 
 .square-subtext {
     text-align: center;
     font-size: 18px;
+    font-weight: 250;
 }
 
 /* quote */
@@ -125,9 +125,11 @@ li a {
   font-size: 36px;
   font-weight: lighter;
   font-style: italic;
-  padding: 70px 120px;
+  padding: 70px 211px;
   background-color: #e5e7eb;
   color: #1f2937;
+  display: block;
+  justify-content: center;
 }
 
 .thor {
