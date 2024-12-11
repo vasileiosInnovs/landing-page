@@ -31,7 +31,7 @@ li a {
   text-decoration: none;
 }
 
-.first {
+#first {
   background-color: #1f2937;
   padding: 30px 120px;
   display: flex;
@@ -46,4 +46,11 @@ li a {
 .subtext {
     font-size: 18px;
     color: #e5e7eb;
+}
+
+.sign-up {
+    background-color: #3882f6;
+    color: white;
+    width: 8px;
+    height: 2px;
 }
