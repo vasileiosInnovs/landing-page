@@ -100,3 +100,8 @@ li a {
   display: flex;
   justify-content: flex-end;
 }
+
+.blue-section {
+    padding: 70px 120px;
+    background-color: #3882f6;
+}
