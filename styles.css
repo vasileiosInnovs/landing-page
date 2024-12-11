@@ -102,7 +102,52 @@ li a {
 }
 
 #last {
-    padding: 70px 120px;
-    display: flex;
+  /* padding: 70px 120px; */
+  display: flex;
+  justify-content: center;
+  padding: 70px 120px;
 }
 
+.blue-section {
+  width: 965px;
+  height: 50px;
+  background-color: #3882f6;
+  color: #e5e7eb;
+  display: flex;
+  justify-content: space-around;
+  padding: 30px 10px;
+  border-radius: 4px;
+}
+
+#left {
+  display: inline-block;
+}
+
+#right {
+  display: block;
+}
+
+#last button {
+  background-color: #3882f6;
+  color: white;
+  padding: 2px;
+  width: 120px;
+  height: 40px;
+  border-radius: 10px;
+  margin: 5px 0;
+  border-color: white;
+}
+
+.white-text {
+  font-weight: bold;
+  font-size: larger;
+}
+
+footer {
+  background-color: #1f2937;
+  display: flex;
+  align-items: center;
+  padding: 17px 120px;
+  color: #e5e7eb;
+  justify-content: center;
+}
